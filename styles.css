@@ -31,10 +31,7 @@ body {
     width: 80%;
     max-width: 400px;
     margin-top: 10px;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+
   }
   
   #advice-id,
@@ -62,7 +59,7 @@ body {
     border-radius: 10px;
     padding: 10px;
     cursor: pointer;
-    width: 100%; /* Make the button fill the width of the container */
+    width: 50%; /* Make the button fill the width of the container */
     box-sizing: border-box; /* Include padding and border in the width */
   }
   

@@ -59,13 +59,11 @@ body {
     width: 32px;
     height: 32px;
     box-sizing: border-box;
-    
- 
   
-  }
+    }
   
   #generate-btn img {
-    width: 70%;
+    width: auto;
     height: auto;
     
   }

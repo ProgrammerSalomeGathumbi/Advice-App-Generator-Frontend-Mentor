@@ -61,8 +61,8 @@ body {
   }
   
   #generate-btn img {
-    width: 100%;
-    height: 100%;
+    width: 10px;
+    height: 10px;
   }
   
   .attribution {

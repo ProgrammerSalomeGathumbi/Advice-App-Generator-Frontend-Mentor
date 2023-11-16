@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+  }
 body {
     margin: 0;
     font-family: 'Manrope', sans-serif;
@@ -46,7 +49,7 @@ body {
   
   .button-container {
     position: absolute;
-    bottom: 20px; /* Adjusted distance from the bottom */
+    bottom: 10px; /* Adjusted distance from the bottom */
     left: 50%;
     transform: translateX(-50%);
     width: 100%; /* Ensure the button spans the full width of the container */
@@ -56,7 +59,7 @@ body {
   #generate-btn {
     background-color: hsl(193, 38%, 86%);
     border: none;
-    border-radius: 10px;
+    border-radius: 50%;
     padding: 10px;
     cursor: pointer;
     width: 100%; /* Make the button fill the width of the container */

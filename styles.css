@@ -53,7 +53,7 @@ body {
   #generate-btn {
     background-color: hsl(193, 38%, 86%);
     border: none;
-    border-radius: 10px;
+    border-radius: 50%;
     padding: 10px;
     cursor: pointer;
     width: 50%;

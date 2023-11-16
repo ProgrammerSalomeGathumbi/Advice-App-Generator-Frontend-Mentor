@@ -1,6 +1,3 @@
-* {
-    box-sizing: border-box;
-  }
 body {
     margin: 0;
     font-family: 'Manrope', sans-serif;
@@ -31,7 +28,10 @@ body {
     width: 80%;
     max-width: 400px;
     margin-top: 10px;
-
+   position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
   }
   
   #advice-id,
@@ -61,6 +61,7 @@ body {
     cursor: pointer;
     width: 50%; /* Make the button fill the width of the container */
     box-sizing: border-box; /* Include padding and border in the width */
+    margin-top: 20px;
   }
   
   #generate-btn img {

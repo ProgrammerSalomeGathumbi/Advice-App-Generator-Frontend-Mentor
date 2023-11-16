@@ -23,7 +23,7 @@ body {
     max-width: 600px;
     position: relative;
   }
-  
+
   .line-image {
     width: 80%;
     max-width: 400px;
@@ -45,17 +45,18 @@ body {
   }
   
   .button-container {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
   
-  #generate-btn {
+#generate-btn {
     background-color: hsl(193, 38%, 86%);
     border: none;
     border-radius: 10px;
-    padding: 10px; /* Adjusted padding for a larger button */
+    padding: 10px;
     cursor: pointer;
   }
   

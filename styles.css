@@ -48,6 +48,8 @@ body {
     transform: translateX(-50%);
     width: 100%;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
   }
   
   #generate-btn {

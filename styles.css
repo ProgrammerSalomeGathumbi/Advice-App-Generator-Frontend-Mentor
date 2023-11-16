@@ -15,9 +15,12 @@ body {
   
   .advice-box {
     background-color: hsl(217, 19%, 24%);
-    padding: 40px;
+    padding: 40px; /* Adjusted padding for a larger advice box */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Center the advice box */
+    width: 33%; /* Set the width to one-third of the viewport width */
+    max-width: 600px; /* Set a maximum width for responsiveness */
     position: relative;
   }
   
@@ -36,13 +39,14 @@ body {
   #advice-text {
     margin-bottom: 20px;
   }
+  
   #advice-id {
     color: hsl(150, 100%, 66%);
-
   }
+  
   .button-container {
     position: absolute;
-    bottom: 20px;
+    bottom: 10px; /* Adjusted distance from the bottom */
     left: 50%;
     transform: translateX(-50%);
   }
@@ -50,20 +54,21 @@ body {
   #generate-btn {
     background-color: hsl(193, 38%, 86%); 
     border: none;
-    border-radius: 10px;
-    padding: 10px; 
+    border-radius: 10px; /* Rounded corners */
+    padding: 5px; /* Adjusted padding for a smaller button */
     cursor: pointer;
   }
   
   #generate-btn img {
-    width: 40px;
-    height: 40px;
+    width: 10px; /* Adjusted icon size */
+    height: 10px;
   }
   
   /* Media Query for Mobile Devices */
   @media only screen and (max-width: 600px) {
     .advice-box {
-      padding: 15px;
+      padding: 20px; /* Adjusted padding for smaller screens */
+      width: 80%; /* Set the width to 80% for smaller screens */
     }
   
     .line-image {
@@ -78,9 +83,12 @@ body {
       font-size: 24px;
     }
   
+    #generate-btn {
+      padding: 8px; 
+  
     #generate-btn img {
-      width: 30px;
-      height: 30px;
+      width: 16px; /* Further adjusted icon size for smaller screens */
+      height: 16px;
     }
   }
   

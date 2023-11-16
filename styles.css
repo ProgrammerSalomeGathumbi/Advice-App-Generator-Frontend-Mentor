@@ -14,17 +14,17 @@ body {
   }
   
   .advice-box {
-    background-color: hsl(150, 100%, 66%);
+    background-color: hsl(218, 23%, 16%); /* Darkened background color */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: relative;
   }
   
-  #line-image {
-    width: 80%; /* Adjust the width of the line image */
-    max-width: 400px; /* Set a maximum width for responsiveness */
-    margin-top: 10px; /* Adjust as needed for spacing */
+  .line-image {
+    width: 80%;
+    max-width: 400px;
+    margin-top: 10px;
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -36,12 +36,23 @@ body {
   #advice-text {
     margin-bottom: 10px;
   }
+  #advice-id {
+    color: hsl(150, 100%, 66%);
+
+  }
+  .button-container {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
   
   #generate-btn {
-    background-color: transparent;
+    background-color: hsl(193, 38%, 86%); 
     border: none;
+    border-radius: 50%;
+    padding: 10px; 
     cursor: pointer;
-    margin-top: 20px;
   }
   
   #generate-btn img {
@@ -52,23 +63,23 @@ body {
   /* Media Query for Mobile Devices */
   @media only screen and (max-width: 600px) {
     .advice-box {
-      padding: 15px; /* Adjust padding for smaller screens */
+      padding: 15px;
     }
   
-    #line-image {
-      width: 100%; /* Make the line image fill the container width */
+    .line-image {
+      width: 100%;
     }
   
     #advice-id {
-      font-size: 18px; /* Reduce font size for smaller screens */
+      font-size: 18px;
     }
   
     #advice-text {
-      font-size: 24px; /* Reduce font size for smaller screens */
+      font-size: 24px;
     }
   
     #generate-btn img {
-      width: 30px; /* Reduce the dice icon size for smaller screens */
+      width: 30px;
       height: 30px;
     }
   }
@@ -76,7 +87,7 @@ body {
   .attribution {
     font-size: 11px;
     text-align: center;
-    margin-top: 20px; /* Add margin to separate from the advice box */
+    margin-top: 20px;
   }
   
   .attribution a {

@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(217, 19%, 24%);
+    color: hsl(193, 38%, 86%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .advice-box {
+    background-color: hsl(150, 100%, 66%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  #line-image {
+    width: 80%; /* Adjust the width of the line image */
+    max-width: 400px; /* Set a maximum width for responsiveness */
+    margin-top: 10px; /* Adjust as needed for spacing */
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  #advice-id,
+  #advice-number,
+  #advice-text {
+    margin-bottom: 10px;
+  }
+  
+  #generate-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  #generate-btn img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media only screen and (max-width: 600px) {
+    .advice-box {
+      padding: 15px; /* Adjust padding for smaller screens */
+    }
+  
+    #line-image {
+      width: 100%; /* Make the line image fill the container width */
+    }
+  
+    #advice-id {
+      font-size: 18px; /* Reduce font size for smaller screens */
+    }
+  
+    #advice-text {
+      font-size: 24px; /* Reduce font size for smaller screens */
+    }
+  
+    #generate-btn img {
+      width: 30px; /* Reduce the dice icon size for smaller screens */
+      height: 30px;
+    }
+  }
+  
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px; /* Add margin to separate from the advice box */
+  }
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  

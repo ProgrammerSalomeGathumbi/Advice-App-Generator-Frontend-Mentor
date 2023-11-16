@@ -27,13 +27,13 @@ body {
   .line-image {
     width: 80%;
     max-width: 400px;
-    
+    margin-bottom: 10px;
   }
   
   #advice-id,
   #advice-number,
   #advice-text {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   
   #advice-id {
@@ -45,8 +45,8 @@ body {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    width: 50%;
-   margin-top: 10px;
+    width: 100%;
+   margin-top: 20px;
    margin-bottom: 0;
   }
   

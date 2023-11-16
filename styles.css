@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Manrope', sans-serif;
-    background-color: hsl(217, 19%, 24%);
+    background-color: hsl(218, 23%, 16%);
     color: hsl(193, 38%, 86%);
     display: flex;
     align-items: center;
@@ -14,8 +14,8 @@ body {
   }
   
   .advice-box {
-    background-color: hsl(218, 23%, 16%); /* Darkened background color */
-    padding: 20px;
+    background-color: hsl(217, 19%, 24%);
+    padding: 40px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: relative;
@@ -34,7 +34,7 @@ body {
   #advice-id,
   #advice-number,
   #advice-text {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   #advice-id {
     color: hsl(150, 100%, 66%);
@@ -42,7 +42,7 @@ body {
   }
   .button-container {
     position: absolute;
-    bottom: 0;
+    bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -50,7 +50,7 @@ body {
   #generate-btn {
     background-color: hsl(193, 38%, 86%); 
     border: none;
-    border-radius: 50%;
+    border-radius: 10px;
     padding: 10px; 
     cursor: pointer;
   }

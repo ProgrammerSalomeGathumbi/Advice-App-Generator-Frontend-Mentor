@@ -15,12 +15,12 @@ body {
   
   .advice-box {
     background-color: hsl(217, 19%, 24%);
-    padding: 20px;
+    padding: 40px; /* Increased padding for a larger advice box */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 0 auto; 
-    width: 45%; 
-    max-width: 600px; 
+    margin: 0 auto; /* Center the advice box */
+    width: 45%; /* Adjusted width */
+    max-width: 600px;
     position: relative;
   }
   
@@ -46,29 +46,29 @@ body {
   
   .button-container {
     position: absolute;
-    bottom: 10px; 
+    bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
   }
   
   #generate-btn {
-    background-color: hsl(193, 38%, 86%); 
+    background-color: hsl(193, 38%, 86%);
     border: none;
-    border-radius: 10px; 
-    padding: 5px; 
+    border-radius: 10px;
+    padding: 10px; /* Adjusted padding for a larger button */
     cursor: pointer;
   }
   
   #generate-btn img {
-    width: 10px; 
-    height: 10px;
+    width: 20px;
+    height: 20px;
   }
   
   /* Media Query for Mobile Devices */
   @media only screen and (max-width: 600px) {
     .advice-box {
-      padding: 20px; 
-      width: 80%; 
+      padding: 20px;
+      width: 80%;
     }
   
     .line-image {
@@ -84,10 +84,11 @@ body {
     }
   
     #generate-btn {
-      padding: 8px; 
+      padding: 8px;
+    }
   
     #generate-btn img {
-      width: 16px; 
+      width: 16px;
       height: 16px;
     }
   }

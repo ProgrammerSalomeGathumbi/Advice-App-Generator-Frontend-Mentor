@@ -44,12 +44,11 @@ body {
   }
   
   .button-container {
-    position: absolute;
-    bottom: 10px; /* Adjusted distance from the bottom */
+    bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
-    width: 100%; /* Ensure the button spans the full width of the container */
-    box-sizing: border-box; /* Include padding and border in the width */
+    width: 100%;
+    box-sizing: border-box;
   }
   
   #generate-btn {
@@ -58,7 +57,7 @@ body {
     border-radius: 10px;
     padding: 10px;
     cursor: pointer;
-    width: 50%; /* Make the button fill the width of the container */
+    width: 100%; /* Make the button fill the width of the container */
     box-sizing: border-box; /* Include padding and border in the width */
     }
   

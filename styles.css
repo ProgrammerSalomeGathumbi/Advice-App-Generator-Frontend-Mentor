@@ -1,83 +1,91 @@
 body {
-    margin: 0;
-    font-family: 'Manrope', sans-serif;
-    background-color: hsl(218, 23%, 16%);
-    color: hsl(193, 38%, 86%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-  }
-  
-  .container {
-    text-align: center;
-  }
-  
-  .advice-box {
-    background-color: hsl(217, 19%, 24%);
-    padding: 40px; /* Increased padding for a larger advice box */
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 0 auto; /* Center the advice box */
-    width: 45%; /* Adjusted width */
-    max-width: 600px;
-    position: relative;
-  }
+  margin: 0;
+  font-family: 'Manrope', sans-serif;
+  background-color: hsl(218, 23%, 16%);
+  color: hsl(193, 38%, 86%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
 
-  .line-image {
-    width: 80%;
-    max-width: 400px;
-    margin-bottom: 10px;
-  }
-  
-  #advice-id,
-  #advice-number,
-  #advice-text {
-    margin-bottom: 10px;
-  }
-  
-  #advice-id {
-    color: hsl(150, 100%, 66%);
-  }
-  
+.container {
+  text-align: center;
+}
 
-  .button-container {
-    position: absolute;
-    bottom: -20px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-  }
-  
-  #generate-btn {
-    background-color: hsl(193, 38%, 86%);
-    border: none;
-    border-radius: 50%;
-    padding: 10px;
-    cursor: pointer;
-    width: 32px;
-    height: 32px;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    }
-  
-  #generate-btn img {
-    width: 100%;
-    height: 100%;
-    
-  }
-  
-  .attribution {
-    font-size: 11px;
-    text-align: center;
-    margin-top: 30px;
-  }
-   
-  /* Media Query for Mobile Devices */
+.advice-box {
+  background-color: hsl(217, 19%, 24%);
+  padding: 40px; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto; 
+  width: 45%; 
+  max-width: 600px;
+  position: relative;
+}
+
+.line-image {
+  width: 80%;
+  max-width: 400px;
+  margin-bottom: 10px;
+}
+
+#advice-id,
+#advice-number,
+#advice-text {
+  margin-bottom: 10px;
+}
+
+#advice-id {
+  color: hsl(150, 100%, 66%);
+}
+
+.button-container {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+#generate-btn {
+  background-color: hsl(193, 38%, 86%);
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease; 
+}
+
+#generate-btn:hover {
+  background-color: hsl(193, 38%, 70%); 
+}
+
+#generate-btn img {
+  width: 100%;
+  height: 100%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 30px;
+  transition: font-size 0.3s ease; 
+}
+
+.attribution:hover {
+  font-size: 14px; 
+}
+
+/* Media Query for Mobile Devices */
 @media only screen and (max-width: 600px) {
   .advice-box {
     padding: 20px;
@@ -103,5 +111,13 @@ body {
   #generate-btn img {
     width: 100%;
     height: auto;
+  }
+
+  .attribution {
+    font-size: 14px;
+  }
+
+  .attribution:hover {
+    font-size: 18px; 
   }
 }

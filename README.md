@@ -61,4 +61,5 @@ I would love to improve my Javascript skills
 
 - [Salome Gathumbi](https://www.linkedin.com/in/salome-gathumbi/)
 - GitHub: [ProgrammerSalomeGathumbi](https://github.com/ProgrammerSalomeGathumbi/)
+-Frontend Mentor: [Salome Gathumbi](https://www.frontendmentor.io/profile/ProgrammerSalomeGathumbi)
 
